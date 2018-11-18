@@ -1,0 +1,96 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+header {
+    background: url("img/rectangle-3.png");
+    background-repeat: no-repeat;
+    /*height: 100%;*/
+    padding: 0 100px;
+}
+.top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.download-button {
+    width: 224px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px 0 rgba(54, 54, 54, 0.15);
+    background-color: #ffffff;
+    padding: 17px 51px;
+    text-decoration: none;
+    color: #d90647;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.messaging img {
+    position: relative;
+
+}
+.messages-img { left: -20px; top: -25px }
+.convesation-img {  left: -240px; top: 50px; }
+.messaging {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:  0 100px;
+}
+.action-list .phone-img{
+    margin: -80px 0 -135px;
+}
+.action-list > div{
+    padding:  0 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #eb402c, #d90647);
+}
+
+.form input{
+    width: 571px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #f8f8f8;
+}
+.form button{
+    margin-left: -180px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 30px 0 rgba(223, 27, 61, 0.3);
+    background-image: linear-gradient(to top, #eb402c, #d90647);
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
